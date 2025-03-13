@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+	FILE *fp;
+	int i;
+	fp=fopen("demo.txt","w");
+	for(i=1:i<=10;i++)
+	{
+		pwtw(i,fp);
+	}
+	fclose(fp);
+	getch();
+}
